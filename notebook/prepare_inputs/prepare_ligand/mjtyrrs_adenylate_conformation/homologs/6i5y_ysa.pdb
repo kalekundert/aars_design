@@ -1,0 +1,72 @@
+CRYST1   81.393   66.508   91.710  90.00 101.73  90.00 P 1 21 1      0
+HETATM    1  N   YSA A 501      26.859  39.182  93.849  1.00 32.59      C    N  
+HETATM    2  CA  YSA A 501      27.193  39.436  95.255  1.00 32.31      C    C  
+HETATM    3  C   YSA A 501      25.897  39.424  96.043  1.00 33.66      C    C  
+HETATM    4  O   YSA A 501      24.798  39.683  95.553  1.00 33.06      C    O  
+HETATM    5  NAT YSA A 501      26.022  39.109  97.378  1.00 33.41      C    N  
+HETATM    6  OAD YSA A 501      23.838  38.849  98.402  1.00 28.16      C    O  
+HETATM    7  OAE YSA A 501      25.071  40.952  98.796  1.00 28.94      C    O  
+HETATM    8  CB  YSA A 501      27.780  40.834  95.449  1.00 24.41      C    C  
+HETATM    9  SBI YSA A 501      25.057  39.553  98.571  1.00 31.03      C    S  
+HETATM   10  CG  YSA A 501      28.979  41.124  94.582  1.00 25.00      C    C  
+HETATM   11  CD1 YSA A 501      30.127  40.339  94.657  1.00 26.04      C    C  
+HETATM   12  CD2 YSA A 501      28.962  42.189  93.690  1.00 25.14      C    C  
+HETATM   13  CE1 YSA A 501      31.237  40.623  93.877  1.00 24.82      C    C  
+HETATM   14  CE2 YSA A 501      30.049  42.455  92.878  1.00 25.97      C    C  
+HETATM   15  CZ  YSA A 501      31.191  41.672  92.970  1.00 24.13      C    C  
+HETATM   16  OH  YSA A 501      32.239  41.916  92.140  1.00 25.03      C    O  
+HETATM   17  C5' YSA A 501      27.130  39.366 100.145  1.00 29.32      C    C  
+HETATM   18  O5' YSA A 501      25.782  38.885  99.821  1.00 31.55      C    O  
+HETATM   19  C4' YSA A 501      27.957  38.156 100.510  1.00 31.04      C    C  
+HETATM   20  O4' YSA A 501      27.402  37.512 101.681  1.00 31.22      C    O  
+HETATM   21  C3' YSA A 501      28.054  37.071  99.431  1.00 32.42      C    C  
+HETATM   22  O3' YSA A 501      29.395  36.595  99.340  1.00 31.27      C    O  
+HETATM   23  C2' YSA A 501      27.099  36.000  99.945  1.00 30.44      C    C  
+HETATM   24  O2' YSA A 501      27.408  34.691  99.509  1.00 30.61      C    O  
+HETATM   25  C1' YSA A 501      27.353  36.122 101.438  1.00 31.08      C    C  
+HETATM   26  N1  YSA A 501      26.310  32.441 104.870  1.00 39.04      C    N  
+HETATM   27  C2  YSA A 501      27.457  32.844 104.309  1.00 38.18      C    C  
+HETATM   28  N3  YSA A 501      27.659  33.850 103.450  1.00 34.15      C    N  
+HETATM   29  C4  YSA A 501      26.511  34.471 103.153  1.00 35.30      C    C  
+HETATM   30  C5  YSA A 501      25.251  34.172 103.655  1.00 36.48      C    C  
+HETATM   31  C6  YSA A 501      25.166  33.090 104.554  1.00 39.67      C    C  
+HETATM   32  N6  YSA A 501      24.010  32.630 105.054  1.00 43.18      C    N  
+HETATM   33  N7  YSA A 501      24.298  35.033 103.133  1.00 34.77      C    N  
+HETATM   34  C8  YSA A 501      24.987  35.810 102.330  1.00 35.64      C    C  
+HETATM   35  N9  YSA A 501      26.328  35.519 102.284  1.00 35.50      C    N  
+CONECT    1    2
+CONECT    2    1    3    8
+CONECT    3    2    4    5
+CONECT    4    3
+CONECT    5    3    9
+CONECT    6    9
+CONECT    7    9
+CONECT    8    2   10
+CONECT    9    5    6    7   18
+CONECT   10    8   11   12
+CONECT   11   10   13
+CONECT   12   10   14
+CONECT   13   11   15
+CONECT   14   12   15
+CONECT   15   13   14   16
+CONECT   16   15
+CONECT   17   19   18
+CONECT   18    9   17
+CONECT   19   17   20   21
+CONECT   20   19   25
+CONECT   21   19   22   23
+CONECT   22   21
+CONECT   23   21   24   25
+CONECT   24   23
+CONECT   25   20   23   35
+CONECT   26   31   27
+CONECT   27   26   28
+CONECT   28   27   29
+CONECT   29   28   30   35
+CONECT   30   29   31   33
+CONECT   31   26   30   32
+CONECT   32   31
+CONECT   33   30   34
+CONECT   34   33   35
+CONECT   35   25   29   34
+END

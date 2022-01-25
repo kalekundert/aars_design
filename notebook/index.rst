@@ -6,4 +6,4 @@ aaRS Design
 
    ideas_and_feedback.rst
    unexpected_observations.rst
-   {notebook_entries}
+   references.rst

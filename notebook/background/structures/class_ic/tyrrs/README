@@ -1,0 +1,41 @@
+A pymol session containing all of the TyrRS structures in the PDB, aligned.
+
+What I did:
+
+- Search PDB for the following:
+
+  - "Full text" contains "tyrrs"
+  - "Structure attribute/polymer entity description" contains "Tyrosyl-tRNA 
+    synthetase"
+  - "Structure attribute/polymer entity description" contains "Tyrosine-tRNA 
+    ligase"
+  
+- Find 101 hits.
+
+  - Several of these hits are TrpRS or HisRS structures, included because of 
+    the full text search term.
+
+  - The HisRS structures (class IIa) can't be aligned to the TyrRS structures, 
+    so I removed them from the pymol session.
+
+  - I kept the TrpRS structures, just in the interest of having more points of 
+    comparison.
+
+- Download all.
+
+- In pymol:
+
+  - Run `load.pml`
+
+    - This tries to align everything, but doesn't do a great job.
+
+  - For every structure:
+
+    - Manually check alignment to 1d2r, and redo if necessary.
+    - Manually delete extra chains.
+    - Manually delete structures that can't be aligned.
+
+  - Save session.
+
+
+

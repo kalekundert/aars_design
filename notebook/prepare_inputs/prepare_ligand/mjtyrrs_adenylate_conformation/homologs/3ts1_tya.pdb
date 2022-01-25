@@ -1,0 +1,70 @@
+CRYST1   64.630   64.630  238.900  90.00  90.00 120.00 P 31 2 1      0
+HETATM    1  CA  TYA A 420      27.606  39.633  94.465  1.00 18.90      B    C  
+HETATM    2  C   TYA A 420      27.010  38.942  95.661  1.00 19.83      B    C  
+HETATM    3  CB  TYA A 420      27.993  41.084  94.733  1.00 18.64      B    C  
+HETATM    4  CG  TYA A 420      29.019  41.518  93.873  1.00 17.33      B    C  
+HETATM    5  CD1 TYA A 420      30.235  40.852  93.884  1.00 16.14      B    C  
+HETATM    6  CD2 TYA A 420      28.848  42.617  93.004  1.00 16.37      B    C  
+HETATM    7  CE1 TYA A 420      31.282  41.273  93.060  1.00 14.67      B    C  
+HETATM    8  CE2 TYA A 420      29.884  43.008  92.147  1.00 12.42      B    C  
+HETATM    9  CZ  TYA A 420      31.104  42.344  92.186  1.00 12.20      B    C  
+HETATM   10  NH2 TYA A 420      26.624  39.588  93.355  1.00 18.09      B    N  
+HETATM   11  OH  TYA A 420      32.155  42.679  91.403  1.00 10.79      B    O  
+HETATM   12  P   TYA A 420      25.446  39.606  97.524  1.00 29.13      B    P  
+HETATM   13  O1P TYA A 420      24.811  40.853  98.001  1.00 29.74      B    O1-
+HETATM   14  O2P TYA A 420      24.420  38.750  98.126  1.00 33.82      B    O  
+HETATM   15  C5' TYA A 420      26.934  39.333  99.639  1.00 24.23      B    C  
+HETATM   16  O5' TYA A 420      26.833  39.398  98.226  1.00 25.21      B    O  
+HETATM   17  C4' TYA A 420      28.186  38.455  99.915  1.00 24.58      B    C  
+HETATM   18  O4' TYA A 420      27.808  37.755 101.138  1.00 25.61      B    O  
+HETATM   19  C3' TYA A 420      28.437  37.361  98.871  1.00 22.88      B    C  
+HETATM   20  O3' TYA A 420      29.753  36.874  98.831  1.00 21.60      B    O  
+HETATM   21  C2' TYA A 420      27.513  36.214  99.311  1.00 22.76      B    C  
+HETATM   22  O2' TYA A 420      28.101  34.945  98.939  1.00 16.00      B    O  
+HETATM   23  C1' TYA A 420      27.505  36.446 100.784  1.00 24.65      B    C  
+HETATM   24  N1  TYA A 420      27.074  32.662 104.095  1.00 25.09      B    N  
+HETATM   25  C2  TYA A 420      28.117  33.136 103.353  1.00 24.67      B    C  
+HETATM   26  N3  TYA A 420      28.123  34.125 102.531  1.00 25.61      B    N  
+HETATM   27  C4  TYA A 420      26.904  34.725 102.459  1.00 24.15      B    C  
+HETATM   28  C5  TYA A 420      25.772  34.375 103.133  1.00 25.18      B    C  
+HETATM   29  C6  TYA A 420      25.865  33.288 104.039  1.00 25.07      B    C  
+HETATM   30  N6  TYA A 420      24.868  32.822 104.794  1.00 24.61      B    N  
+HETATM   31  N7  TYA A 420      24.732  35.247 102.844  1.00 25.02      B    N  
+HETATM   32  C8  TYA A 420      25.265  36.074 101.939  1.00 24.92      B    C  
+HETATM   33  N9  TYA A 420      26.560  35.813 101.660  1.00 23.73      B    N  
+HETATM   34  OPP TYA A 420      25.690  39.415  96.003  1.00 23.53      B    O  
+CONECT    1    2    3   10
+CONECT    2    1   34
+CONECT    3    1    4
+CONECT    4    3    5    6
+CONECT    5    4    7
+CONECT    6    4    8
+CONECT    7    5    9
+CONECT    8    6    9
+CONECT    9    7    8   11
+CONECT   10    1
+CONECT   11    9
+CONECT   12   13   14   16   34
+CONECT   13   12
+CONECT   14   12
+CONECT   15   17   16
+CONECT   16   12   15
+CONECT   17   15   18   19
+CONECT   18   17   23
+CONECT   19   17   20   21
+CONECT   20   19
+CONECT   21   19   22   23
+CONECT   22   21
+CONECT   23   18   21   33
+CONECT   24   25   29
+CONECT   25   24   26
+CONECT   26   25   27
+CONECT   27   26   28   33
+CONECT   28   27   29   31
+CONECT   29   28   24   30
+CONECT   30   29
+CONECT   31   28   32
+CONECT   32   31   33
+CONECT   33   23   27   32
+CONECT   34    2   12
+END

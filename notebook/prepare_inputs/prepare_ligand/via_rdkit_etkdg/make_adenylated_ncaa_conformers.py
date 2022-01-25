@@ -1,0 +1,1 @@
+../../../../software/ncaars/scripts/make_adenylated_ncaa_conformers.py
